@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Dijital Test SUCCESSFULLY DONE")
+    return render(request, 'base/base.html')
